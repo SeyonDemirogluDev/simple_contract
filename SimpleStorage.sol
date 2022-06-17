@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-contract SimpleStorage {
+contract private SimpleStorage {
 
     uint256 favoriteNumber;
 
