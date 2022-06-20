@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: Unlicense
+// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
 
@@ -20,11 +20,11 @@ contract SimpleStorage {
         getPersonNumber[_name] = favoriteNumber;
     }
 
-    function setFavoriteNumber(uint256 favoriteNumber) public {
+    function setFavoriteNumber(uint256 favoriteNumber) external {
         _favoriteNumber = favoriteNumber;
     }
 
-    function getFavoriteNumber() public view returns (uint256) {
+    function getFavoriteNumber() external view returns (uint256) {
         return _favoriteNumber;
     }
 }
