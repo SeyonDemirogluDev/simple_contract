@@ -23,11 +23,11 @@ getPersonNumber
 *Mapping which maps person name to their favorite number.*
 
 ```
-setPerson
+setPerson()
 ```
 *Define your person.*
 
 ```
-setFavoriteNumber
+setFavoriteNumber()
 ```
 *Define your favorite number.*
