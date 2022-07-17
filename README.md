@@ -3,7 +3,7 @@
 **Simple Storage is a simple contract which is designed to store your favorite number.**
 
 ```
-favoriteNumber
+favoriteNum
 ```
 *Your favorite number, which is retrieveable.*
 
@@ -13,12 +13,12 @@ Person
 *Struct for storing multiple traits (datatypes) under a single variable.*
 
 ```
-getPersonAndNumber
+getPersonAndNum
 ```
 *Array to retrieve traits from Person.*
 
 ```
-getPersonNumber
+getPersonNum
 ```
 *Mapping which maps person name to their favorite number.*
 
@@ -28,6 +28,6 @@ setPerson()
 *Define your person.*
 
 ```
-setFavoriteNumber()
+setFavoriteNum()
 ```
 *Define your favorite number.*
