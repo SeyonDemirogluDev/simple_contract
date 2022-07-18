@@ -16,7 +16,7 @@ contract SimpleStorage {
         getPersonNum[_name] = _favoriteNum;
     }
 
-    function setFavoriteNumber(uint256 _favoriteNum) external {
+    function setFavoriteNum(uint256 _favoriteNum) external {
         favoriteNum = _favoriteNum;
     }
 }
