@@ -1,21 +1,20 @@
 # Simple Storage
-
 **Simple Storage is a simple contract which is designed to store your favorite number.**
 
 ```
 favoriteNum
 ```
-*Your favorite number, which is retrieveable.*
+*Your favorite number.*
 
 ```
 Person
 ```
-*Struct for storing multiple traits (datatypes) under a single variable.*
+*Structure for storing multiple datatypes under a single variable.*
 
 ```
 getPersonAndNum
 ```
-*Array to retrieve traits from Person.*
+*Array to retrieve traits from `Person`.*
 
 ```
 getPersonNum
